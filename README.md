@@ -1,5 +1,5 @@
 # Leveraging the efficiency of Ensembles for Customer Retention
-**-Research project by 
+**-Research project by** 
 [Gaurav Bavdane](https://github.com/Gaurav6420) and
 [Neha Bhujbal](https://github.com/nehabhujbal222) 
 
@@ -12,30 +12,17 @@ To attract more customers, every bank comes up with new offers every day. Due to
 **Architecture:**
 ![image](https://github.com/Gaurav6420/Bank-Customer-Churn/assets/58482510/e8a784f3-1bf0-42df-969e-ae4274b6e61a)
 
-
-1. While selecting keywords from each review one of the main tasks is to 
-remove stop words without losing the prime sentiment of 
-the review. This has been achieved by selecting **specific POS 
-tags (adjective, adverb, verb, noun)**  instead of explicitly removing 
-all the stop words and performing **lemmatization using gensim.**
-2. Further, **TF-IDF vectorizer** is used to 
-score each word and highlight the word’s relevance in each 
-review. 
-3. For classification two of the most commonly used 
-classifiers, **Naïve Bayes** and **SVM** are used. We also trained a 
-**Feed Forward Neural Network** and all the results are 
-empirically discussed. 
-4. We have employed **Cross Validation** 
-and **GridSearch** to get the best model that fits the data. 
+**A brief overview:**
+1. The most important challenge in this research was that the data was highly unbalanced (16:84). To balance the data we used different sampling techniques such as SMOTE, Border-line SMOTE, Border-line SMOTE SVM, and ADASYN. On further result analysis Border-line SMOTE SVM gave the best results.
+2. To increase the accuracy and to reduce the computational power we decided to only use the relevant feature. This was achieved by using various feature selection techniques Lasso, Recursive Feature Elimination (RFE), and Random Forest (RF). To retain the best features we combined and scored to select the top 10 most significant features.
+3. For classification we used various machine-learning models like KNN, RF, XRT, Adabosst, GBM, and RF+XRT+Adaboost. The ensemble of all the best-performing models helped us score the highest accuracy.
 
 
-This process of sentiment analysis will help gauge the bigger 
-picture rather than scrutinizing each review to drive deeper 
-insights and help organizations formulate effective business 
-strategies.
+Banks can run this model on the existing data to devise customized marketing strategies as well as predict future trends. In addition to this, majority of the customers that have
+churned belong to the group having low income or lie in the 40-60 years age group. The bank should direct its marketing initiatives to retain these customers through incentives, promotional mails, etc., instead of focusing on attracting new customers; as the cost of finding new customers is much higher than that of retaining the existing ones.
 
-Our work got **published in International Research Journal of Engineering and Technology (IRJET) Volume 8, Issue 4,  April 2021**. 
+Our work was **published in 2021 Fifth International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC) by IEEE**. 
 Do give it a read for a better understanding of our work.
-https://www.irjet.net/archives/V8/i4/IRJET-V8I4854.pdf
+https://ieeexplore.ieee.org/abstract/document/9640757
 
 Feel free to contact us with any queries or suggestions regarding the project. :)
