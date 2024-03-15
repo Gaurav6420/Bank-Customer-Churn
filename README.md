@@ -13,9 +13,9 @@ To attract more customers, every bank comes up with new offers every day. Due to
 ![image](https://github.com/Gaurav6420/Bank-Customer-Churn/assets/58482510/e8a784f3-1bf0-42df-969e-ae4274b6e61a)
 
 **A brief overview:**
-1. The most important challenge in this research was that the data was highly unbalanced (16:84). To balance the data we used different sampling techniques such as SMOTE, Border-line SMOTE, Border-line SMOTE SVM, and ADASYN. On further result analysis Border-line SMOTE SVM gave the best results.
-2. To increase the accuracy and to reduce the computational power we decided to only use the relevant feature. This was achieved by using various feature selection techniques Lasso, Recursive Feature Elimination (RFE), and Random Forest (RF). To retain the best features we combined and scored to select the top 10 most significant features.
-3. For classification we used various machine-learning models like KNN, RF, XRT, Adabosst, GBM, and RF+XRT+Adaboost. The ensemble of all the best-performing models helped us score the highest accuracy.
+1. The most important challenge in this research was that the data was highly unbalanced (16:84). To balance the data we used different sampling techniques such as **SMOTE, Border-line SMOTE, Border-line SMOTE SVM, and ADASYN**. On further result analysis **Border-line SMOTE SVM** gave the best results.
+2. To increase the accuracy and to reduce the computational power we decided to only use the relevant feature. This was achieved by using various feature selection techniques **Lasso, Recursive Feature Elimination (RFE), and Random Forest (RF)**. To retain the best features we combined and scored to select the top 10 most significant features.
+3. For classification we used various machine-learning models like **KNN, RF, XRT, Adabosst, GBM, and RF+XRT+Adaboost**. The ensemble of all the best-performing models helped us score the highest accuracy.
 
 
 Banks can run this model on the existing data to devise customized marketing strategies as well as predict future trends. In addition to this, majority of the customers that have
