@@ -1,4 +1,4 @@
-# Leveraging the efficiency of Ensembles forCustomer Retention
+# Leveraging the efficiency of Ensembles for Customer Retention
 **-Research project by 
 [Gaurav Bavdane](https://github.com/Gaurav6420) and
 [Neha Bhujbal](https://github.com/nehabhujbal222) 
@@ -10,7 +10,7 @@ To attract more customers, every bank comes up with new offers every day. Due to
 
 
 **Architecture:**
-![image](https://user-images.githubusercontent.com/66311371/116960644-a65fec00-acbe-11eb-86cd-c43d597bc5b2.png)
+![image](https://github.com/Gaurav6420/Bank-Customer-Churn/assets/58482510/e8a784f3-1bf0-42df-969e-ae4274b6e61a)
 
 
 1. While selecting keywords from each review one of the main tasks is to 
